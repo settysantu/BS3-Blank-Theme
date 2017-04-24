@@ -1,0 +1,107 @@
+body {	
+	font: 14px/22px 'PT Sans', Arial, Helvetica, sans-serif;
+	color: #2c3e50;
+	background: #fff;
+}
+
+/* Standard Styles Starts */
+
+a { color: #3977b6; }
+a:hover, 
+a:focus {
+}
+a:focus { outline: none; }
+
+/* Heading Styles Starts */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: 'Open Sans', Helvetica, Times New Roman, sans-serif;
+}
+h1 { font-size: 38px; }
+h2 { font-size: 32px; }
+h3 { font-size: 26px; }
+h4 { font-size: 20px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+/* Form & Buttons Styles Starts */
+
+.btn-secondary {
+	background-color: #d26604;
+}
+.btn-secondary, 
+.btn-secondary:hover, 
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active {
+	color: #fff;
+}
+.btn-secondary:hover, 
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active {
+	background-color: #bd5d07;
+}
+
+/* Generic Styles Starts */
+
+.parallax {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.no-margin-top		{ margin-top: 0; 	}
+.no-margin-bottom	{ margin-bottom: 0; }
+
+.text-thin		 	{ font-weight: 100; }
+.text-extra-light	{ font-weight: 200; }
+.text-light		 	{ font-weight: 300; }
+.text-normal 	 	{ font-weight: 400; }
+.text-medium 	 	{ font-weight: 500; }
+.text-bold		 	{ font-weight: 700; }
+.text-ultra-bold 	{ font-weight: 900; }
+
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.no-border-radius, 
+.flat {
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+			border-radius: 0;
+}
+
+.no-boxshadow {
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+			box-shadow: none;
+}
+
+.font-awesome {
+	font-family: 'FontAwesome';
+	src: url('../font-awesome/fonts/fontawesome-webfont.eot?v=4.5.0');
+	src: url('../font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../font-awesome/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+}
+
+.animation, 
+.animation a {
+	-webkit-transition: all 0.5s ease 0s;
+	   -moz-transition: all 0.5s ease 0s;
+		    transition: all 0.5s ease 0s;
+}
+
+.animation-1, 
+.animation-1 a {
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+		    transition: all 1s ease;	
+}
